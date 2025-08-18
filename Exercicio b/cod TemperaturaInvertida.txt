@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TemperaturaInvertida {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double F, C;
+		
+		System.out.print("Digite a tem peratura em graus Fahrenheit: ");
+		F = entrada.nextDouble();
+		
+		C = (F-32)* 5/9;
+		
+		System.out.println("A temperatura em graus Celsius é: " +C);
+
+	}
+
+}

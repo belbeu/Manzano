@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+public class Real {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double real, dolar, cotacao;
+		
+		System.out.print("Digite o valor em dolar (U$): ");
+		dolar = entrada.nextDouble();
+		
+		System.out.print("Digite a cotação atual do dólar (ex: 5,20): ");
+		cotacao = entrada.nextDouble();
+		
+		real = dolar*cotacao;
+		
+		System.out.println("Valor em real: "+real);
+	}
+
+}

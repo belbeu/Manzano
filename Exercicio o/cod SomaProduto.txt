@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class SomaProduto {
+
+	public static void main(String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	
+	int A, B, C, D, P, S;
+	
+	System.out.print("Digite o valor de A: ");
+	A = entrada.nextInt();
+	
+	System.out.print("Digite o valor de B: ");
+	B = entrada.nextInt();
+	
+	System.out.print("Digite o valor de C: ");
+	C = entrada.nextInt();
+	
+	System.out.print("Digite o valor de D: ");
+	D = entrada.nextInt();
+	
+	P = A*D;
+	S = B+D;
+	
+	System.out.println("O produto de A com D é: "+P);
+	System.out.println("A soma de B com D é: "+S);
+	}
+
+}

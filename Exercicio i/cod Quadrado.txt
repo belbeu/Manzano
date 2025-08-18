@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Quadrado {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int num, quadrado;
+		
+		System.out.print("Digite o número: ");
+		num = entrada.nextInt();
+		
+		quadrado = num * num;
+		
+		System.out.println("O número ao quadrado é: "+quadrado);
+	}
+
+}

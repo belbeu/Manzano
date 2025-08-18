@@ -1,0 +1,8 @@
+Algoritmo Quadrado
+	inteiro: num, quadrado;
+Inicio
+	escreva("Digite o número: ");
+	leia(num);
+	quadrado<-num*num;
+	escreva("O número ao quadrado é: ", quadrado);
+Fim

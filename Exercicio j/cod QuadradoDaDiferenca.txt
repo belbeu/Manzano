@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class QuadradoDaDiferenca {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int A, B, result;
+		
+		System.out.print("Digite o valor de A: ");
+		A = entrada.nextInt();
+		
+		System.out.print("Digite o valor de B: ");
+		B = entrada.nextInt();
+		
+		result = (A-B)*(A-B);
+		
+		System.out.println("O quadrado da diferença é: "+result);
+
+	}
+
+}

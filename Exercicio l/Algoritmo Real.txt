@@ -1,0 +1,10 @@
+Algoritmo Real
+	Real: dolar, valorReal, cotacao;
+Inicio
+	escreva("Digite o valor em dolar (U$): ");
+	leia(dolar);
+	escreva("Digite a cotação atual do dólar (ex: 5,20): ");
+	leia(cotacao);
+	valorReal<-dolar*cotacao;
+	escreva("Valor em real: ", valorReal);
+Fim

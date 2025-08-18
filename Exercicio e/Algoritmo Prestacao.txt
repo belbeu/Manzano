@@ -1,0 +1,12 @@
+Algoritmo Prestacao
+	Real: valor, tempo, taxa, prestacao;
+Inicio
+	escreva("Digite o valor: ");
+	leia(valor);
+	escreva("Digite o tempo em meses: ");
+	leia(tempo);
+	escreva("Digite a taxa de juros: ");
+	leia(taxa);
+	prestacao<-valor+(valor*(taxa/100)*tempo);
+	escreva("O valor da prestação é de: ", prestacao);
+Fim	

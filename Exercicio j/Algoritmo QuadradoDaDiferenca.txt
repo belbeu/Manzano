@@ -1,0 +1,12 @@
+Algoritmo QuadradoDaDiferenca
+
+  inteiro: A, B, result;
+
+Inicio
+    escreva("Digite o valor de A: ");
+    leia(A);
+    escreva("Digite o valor de B: ");
+    leia(B);
+    result<-(A-B)*(A-B);
+    escreva("O quadrado da diferença é: ", result);
+Fim

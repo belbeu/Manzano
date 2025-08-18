@@ -1,0 +1,26 @@
+Algoritmo AdicaoMultiplicacao
+
+  inteiro: A, B, C, D;
+
+Inicio
+  escreva("Digite o valor de A: ");
+  leia(A);
+  escreva("Digite o valor de B: ");
+  leia(B);
+  escreva("Digite o valor de C: ");
+  leia(C);
+  escreva("Digite o valor de D: ");
+  leia(D);
+  escreva("A + B = ", A + B);
+  escreva("A + C = ", A + C);
+  escreva("A + D = ", A + D);
+  escreva("B + C = ", B + C);
+  escreva("B + D = ", B + D);
+  escreva("C + D = ", C + D);
+  escreva("A * B = ", A * B);
+  escreva("A * C = ", A * C);
+  escreva("A * D = ", A * D);
+  escreva("B * C = ", B * C);
+  escreva("B * D = ", B * D);
+  escreva("C * D = ", C * D);
+Fim

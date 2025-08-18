@@ -1,0 +1,13 @@
+Algoritmo TrocaDeValores
+	Real: A, B, aux;
+Inicio
+	escreva("Digite o valor de A: ");
+	leia(A);
+	escreva("Digite o valor de B: ");
+	leia(B);
+	aux<-A;
+	A<-B;
+	B<-aux;
+	escreva("A: ",A);
+	escreva("B: ",B);
+Fim

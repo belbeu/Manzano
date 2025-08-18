@@ -1,0 +1,13 @@
+Algoritmo VolumeRetangulo
+	Real: volume, comprimento, largura, altura;
+Inicio
+	escreva("Digite o comprimento: ");
+	leia(comprimento);
+	escreva("Digite a largura: ");
+	leia(largura);
+	escreva("digite a altura: ");
+	leia(altura);
+	volume<-comprimento*largura*altura;
+	escreva("O volume do retângulo é: ");
+	escreva(volume);
+Fim

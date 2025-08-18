@@ -1,0 +1,13 @@
+Algoritmo QuadradoDaSoma
+	inteiro: A, B, C, soma, result;
+Inicio
+	escreva("Digite o valor de A: ");
+	leia(A);
+	escreva("Digite o valor de B: ");
+	leia(B);
+	escreva("Digite o valor de C: ");
+	leia(C);
+	soma<-A+B+C;
+	result<-soma*soma;
+	escreva("resultado: ", result);
+Fim

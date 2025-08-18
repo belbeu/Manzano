@@ -1,0 +1,12 @@
+Algoritmo SomaDosQuadrados
+	inteiro: A, B, C, result;
+Inicio
+	escreva("Digite o valor de A: ");
+	leia(A);
+	escreva("Digite o valor de B: ");
+	leia(B);
+	escreva("Digite o valor de C: ");
+	leia(C);
+	result<-(A*A) + (B*B) + (C*C);
+	escreva("resultado: ", result);
+Fim

@@ -1,0 +1,17 @@
+	import java.util.Scanner;
+	
+	public class Temperatura {
+	
+		public static void main(String[] args) {
+			Scanner entrada = new Scanner(System.in);
+			double F, C;
+			
+			System.out.print("Digite a tem peratura em graus Ceusius: ");
+			C = entrada.nextDouble();
+			
+			F = (9*C+160)/5;
+			
+			System.out.println("A temperatura em graus Fahrenheit é: " +F);
+		}
+	
+	}

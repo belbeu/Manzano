@@ -1,0 +1,13 @@
+Algoritmo ConsumoMedio
+	Real: tempo, velocidade, distancia, litros;
+Inicio
+	escreva("");
+	leia();
+	escreva("");
+	leia();
+	distancia<-tempo*velocidade;
+	litros<-distancia/12;
+	escreva("A velocidade média é: ", velocidade);
+	escreva("O tempo gasto na viagem foi de: ", tempo);
+	escreva("A distância percorrida foi de: ", distancia);
+	escreva("A quantidade de litros de gasolina utilizados na viagem foi de: ", litros);

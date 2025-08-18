@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Prestacao {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double valor, tempo, taxa, prestacao;
+		
+		System.out.print("Digite o valor: ");
+		valor = entrada.nextDouble();
+		
+		System.out.print("Digite o tempo em meses: ");
+		tempo = entrada.nextDouble();
+		
+		System.out.print("Digite a taxa de juros: ");
+		taxa = entrada.nextDouble();
+	
+		prestacao = valor+(valor*(taxa/100)*tempo);
+		
+		System.out.println("O valor da prestação é de: "+prestacao);
+	}
+
+}

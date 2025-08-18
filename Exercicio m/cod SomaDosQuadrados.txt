@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class SomaDosQuadrados {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int A, B, C, result;
+		
+		System.out.print("Digite o valor de A: ");
+		A = entrada.nextInt();
+		
+		System.out.print("Digite o valor de B: ");
+		B = entrada.nextInt();
+		
+		System.out.print("Digite o valor de C: ");
+		C = entrada.nextInt();
+		
+		result = (A*A) + (B*B) + (C*C);
+		
+		System.out.println("resultado: "+result);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+Algoritmo SomaProduto
+	inteiro: A, B, C, D, P, S;
+Inicio
+	escreva("Digite o valor de A: ");
+	leia(A);
+	escreva("Digite o valor de B: ");
+	leia(B);
+	escreva("Digite o valor de C: ");
+	leia(C);
+	escreva("Digite o valor de D: ");
+	leia(D);
+	P<-A*D;
+	S<-B+D;
+	escreva("O produto de A com D é: ", P);
+	escreva("A soma de B com D é: ", S);
+Fim

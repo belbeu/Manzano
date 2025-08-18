@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ConsumoMedio {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double tempo, velocidade, distancia, litros;
+		
+		System.out.print("Digite o tempo gasto na viagem: ");
+		tempo = entrada.nextDouble();
+		
+		System.out.print("Digite a velocidade média: ");
+		velocidade = entrada.nextDouble();
+		
+		distancia = tempo*velocidade;
+		litros = distancia/12;
+		
+		System.out.println("A velocidade média é: "+velocidade);
+		System.out.println("O tempo gasto na viagem foi de: "+tempo);
+		System.out.println("A distância percorrida foi de: "+distancia);
+		System.out.println("A quantidade de litros de gasolina utilizados na viagem foi de: "+litros);
+	}
+
+}
