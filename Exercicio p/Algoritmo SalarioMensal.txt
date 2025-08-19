@@ -1,0 +1,10 @@
+Algoritmo SalarioMensal
+	Real: SM, PR, NS;
+Inicio
+	escreva("Digite o salário Mensal: ");
+	leia(SM);
+	escreva("Digite o percentual de reajuste (%): ");
+	leia(PR);
+	NS<-SM + (SM*PR/100);
+	escreva("O novo salário é: ", NS);
+Fim

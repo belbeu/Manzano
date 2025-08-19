@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SalarioMensal {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		double SM, PR, NS;
+		
+		System.out.print("Digite o salário Mensal: ");
+		SM = entrada.nextDouble();
+		
+		System.out.print("Digite o percentual de reajuste (%): ");
+		PR = entrada.nextDouble();
+		
+		NS = SM + (SM*PR/100);
+		
+		System.out.println("O novo salário é: "+NS);
+	}
+
+}
