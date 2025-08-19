@@ -1,0 +1,8 @@
+Algoritmo Circunferencia
+	Real: A, R;
+Inicio
+	escreva("Digite o valor do raio: ");
+	leia(R);
+	A<-3.14159*R*R;
+	escreva("A Área é: ", A);
+Fim

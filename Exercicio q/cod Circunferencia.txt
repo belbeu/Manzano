@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Circunferencia {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		double A, R;
+		
+		System.out.print("Digite o valor do raio: ");
+		R = entrada.nextDouble();
+		
+		A = 3.14159*R*R;
+		
+		System.out.println("A Área é: "+A);
+	}
+
+}
