@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class Eleicao {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		int votosA, votosB, votosC, votosNulos, votosBranco, totalEleitores;
+		double percValidos, percA, percB, percC, percNulos, percBranco;
+		
+		System.out.print("Digite a quantidade de votos válidos do candidato A:");
+		votosA = entrada.nextInt();
+		
+		System.out.print("Digite a quantidade de votos válidos do candidato B:");
+		votosB = entrada.nextInt();
+		
+		System.out.print("Digite a quantidade de votos válidos do candidato C:");
+		votosC = entrada.nextInt();
+		
+		System.out.print("Digite a quantidade de votos nulos:");
+		votosNulos = entrada.nextInt();
+		
+		System.out.print("Digite a quantidade de votos em branco:");
+		votosBranco = entrada.nextInt();
+		
+		totalEleitores = votosA + votosB + votosC + votosNulos + votosBranco;
+		
+		percValidos = ((votosA + votosB + votosC)*100)/totalEleitores;
+		
+		percA = (votosA*100)/totalEleitores;
+		percB = (votosB*100)/totalEleitores;
+		percC = (votosC*100)/totalEleitores;
+		percNulos = (votosNulos*100)/totalEleitores;
+		percBranco = (votosBranco*100)/totalEleitores;
+		
+		System.out.println("Total de eleitores: "+totalEleitores);
+		System.out.println("Percentual de votos válidos: "+percValidos+"%");
+		System.out.println("Percentual de votos do candidato A: "+percA+"%");
+		System.out.println("Percentual de votos do candidato B: "+percB+"%");
+		System.out.println("Percentual de votos do candidato C: "+percC+"%");
+		System.out.println("Percentual de votos nulos: "+percNulos+"%");
+		System.out.println("Percentual de votos em branco: "+percBranco+"%");
+		
+	}
+
+}

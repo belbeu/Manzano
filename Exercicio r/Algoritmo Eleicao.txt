@@ -1,0 +1,31 @@
+Algoritmo Eleicao
+
+	Inteiro: votosA, votosB, votosC, votosNulos, votosBranco, totalEleitores;
+
+	Real: percValidos, percA, percB, percC, percNulos, percBranco;
+Inicio
+	Escreva("Digite a quantidade de votos válidos do candidato A: ");
+	leia(votosA);
+	escreva("Digite a quantidade de votos válidos do candidato B: ");
+	leia(votosB);
+	escreva("Digite a quantidade de votos válidos do candidato C: ");
+	leia(votosC);
+	escreva("Digite a quantidade de votos nulos: ");
+	leia(votosNulos);
+	escreva("Digite a quantidade de votos em branco: ");
+	leia(votosBranco);
+	totalEleitores<-votosA + votosB + votosC + votosNulos + votosBranco;
+	percValidos<-((votosA + votosB + votosC) * 100) / totalEleitores;
+	percA<-(votosA * 100) / totalEleitores;
+	percB<-(votosB * 100) / totalEleitores;
+	percC<-(votosC * 100) / totalEleitores;
+	percNulos<-(votosNulos * 100) / totalEleitores;
+	percBranco<-(votosBranco * 100) / totalEleitores;
+	escreva("Total de eleitores: ", totalEleitores);
+	escreva("Percentual de votos válidos: ", percValidos);
+	escreva("Percentual de votos do candidato A: ", percA);
+	escreva("Percentual de votos do candidato B: ", percB)
+	escreva("Percentual de votos do candidato C: ", percC);
+	escreva("Percentual de votos nulos: ", percNulos);
+	escreva("Percentual de votos em branco: ", percBranco);
+Fim
